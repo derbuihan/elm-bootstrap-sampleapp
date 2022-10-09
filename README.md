@@ -2,7 +2,7 @@
 
 create project
 
-```
+```bash
 $ mkdir elm-bootstrap-sampleapp 
 $ cd elm-bootstrap-sampleapp 
 $ npm init -y
@@ -10,21 +10,21 @@ $ npm init -y
 
 install bootstrap
 
-```
+```bash
 $ npm i --save-dev parcel
 $ npm i --save-dev bootstrap @popperjs/core
 ```
 
 install Elm
 
-```
+```bash
 $ npm i --save-dev elm @parcel/transformer-elm
 $ npx elm init
 ```
 
 create files
 
-```
+```bash
 $ touch src/index.html src/index.js src/index.scss src/Main.elm
 ```
 
@@ -47,7 +47,7 @@ write `src/index.html`
 
 write `src/index.js`
 
-```
+```js
 import * as bootstrap from "bootstrap";
 import { Elm } from "./Main.elm";
 
@@ -56,13 +56,13 @@ Elm.Main.init({ node: document.getElementById("root") });
 
 write `src/index.scss`
 
-```
+```scss
 @import "bootstrap/scss/bootstrap";
 ```
 
 write `src/Main.elm`
 
-```
+```elm
 module Main exposing (main)
 
 import Browser
@@ -111,7 +111,7 @@ view model =
 rewrite `package.json`
 delete a line of `"main": "src/index.js"` and add the following
 
-```
+```json
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --no-source-maps",
@@ -121,6 +121,6 @@ delete a line of `"main": "src/index.js"` and add the following
 
 let's build
 
-```
+```bash
 $ npm run build
 ```
