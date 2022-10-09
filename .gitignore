@@ -1,0 +1,12 @@
+# node
+node_modules
+
+# parcel
+.parcel-cache
+
+# elm
+elm-stuff
+repl-temp-*
+
+# build
+dist
