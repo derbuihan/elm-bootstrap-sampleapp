@@ -8,7 +8,7 @@ $ cd elm-bootstrap-sampleapp
 $ npm init -y
 ```
 
-install bootstrap
+install bootstrap[^1]
 
 ```bash
 $ npm i --save-dev parcel
@@ -124,3 +124,5 @@ let's build
 ```bash
 $ npm run build
 ```
+
+[^1]: https://getbootstrap.com/docs/5.2/getting-started/parcel/
