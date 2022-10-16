@@ -106,8 +106,6 @@ view model =
         ]
 ```
 
-`package.json`を書き換える。（`"main": "src/index.js",`を削除して以下を追加）
-
 rewrite `package.json`
 delete a line of `"main": "src/index.js"` and add the following
 
@@ -119,7 +117,7 @@ delete a line of `"main": "src/index.js"` and add the following
   },
 ```
 
-let's build
+Let's build
 
 ```bash
 $ npm run build
