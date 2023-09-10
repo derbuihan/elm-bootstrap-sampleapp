@@ -1,0 +1,16 @@
+{
+    "elmLS.elmPath": "./node_modules/.bin/elm",
+    "elmLS.elmFormatPath": "./node_modules/.bin/elm-format",
+    "elmLS.elmTestPath": "./node_modules/.bin/elm-test",
+    "[elm]": {
+        "editor.defaultFormatter": "elmTooling.elm-ls-vscode",
+        "editor.formatOnSave": true,
+        "editor.rulers": [80]
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.rulers": [80]
+    },
+    "prettier.tabWidth": 4
+}
