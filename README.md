@@ -18,7 +18,7 @@ $ npm i --save-dev bootstrap @popperjs/core
 install Elm
 
 ```bash
-$ npm i --save-dev elm @parcel/transformer-elm
+$ npm i --save-dev elm elm-format elm-test @parcel/transformer-elm
 $ npx elm init
 ```
 
